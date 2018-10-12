@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:300');
+
 body {
 	color: #333;
+}
+
+/*ページヘッダー*/
+#siteTitle {
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 0;
+	font-family: 'Rokkitt', serif;
+	letter-spacing: 2px;
+}
+
+#catchcopy {
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 5px;
+}
+
+/*ページフッター*/
+#pageFoot {
+	border-top: 1px solid #ccc;
+	margin-top: 15px;
+}
+
+#copyright {
+	font-size: 12px;
+	line-height: 1.5;
 }
 
 p {
